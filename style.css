@@ -1,5 +1,6 @@
 body{
     font-family:'Poppins', sans-serif;
+    margin: 0px; /*by default margin nei tai pura body te 0 margin */
 }
 h1{
     font-size: 50px;
@@ -15,4 +16,12 @@ h1{
 }
 .half-width img{
     width: 100%;
+    
+}
+.top-banner{
+    background-image: url("developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 650px;
 }
