@@ -5,6 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    padding-bottom: 30px;
+}
 .nabo-highlight{
     color:orange ;
 }
@@ -24,4 +31,48 @@ h1{
 }
 section{
     height: 650px;
+    padding-bottom: 150px;
 }
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,white,rgb(187, 102, 41));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+}
+.dream-big{
+    background-image: url("developer-portfolio/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#for-padding{
+    padding-bottom: 250px;
+}
+.shadow-box{
+    box-shadow: 10px 10px 40px red;
+    border-radius: 5px;
+    height: 380px;
+    background-color: white;
+}
+.experince-area{
+    background-image: url("developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 420px;
+}
+#beginner-dev{
+    border-left: 7px solid;
+    border-image:linear-gradient(yellow, skyblue);
+    border-image-slice: 1;
+}
+#fullstack-dev{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+#for-footer{
+    text-align: center;
+}
+
